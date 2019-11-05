@@ -1,2 +1,2 @@
 # crwn-clothing
-E-Commerce Project
+Full Stack React E-commerce WebApp Project with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase
