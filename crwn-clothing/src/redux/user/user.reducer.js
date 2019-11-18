@@ -16,3 +16,5 @@ const userReducer = (state = INITIAL_STATE, action) => {
 }
 
 export default userReducer;
+
+// this userReducer is just currently this object with a current user value that will get set whenever the set current user action fires off 

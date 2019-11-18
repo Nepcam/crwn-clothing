@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'; 
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux' // a component that we get from react-redux store, the provider componnet has to be the parent of everything
 
 // BrowserRouter is a component - gives our application all of the functionality of routing
 
@@ -11,7 +11,8 @@ import App from './App';
 import store from './redux/store';
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store}> 
+  
     <BrowserRouter>
       <App />
     </BrowserRouter>
