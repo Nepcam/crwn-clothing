@@ -33,7 +33,7 @@ class ShopPage extends React.Component {
 };
 
 const mapDispatchToProps = dispatch => ({
-  updateCollections: collectionsMap => dispatch(updateCollections(collections)) 
+  updateCollections: collectionsMap => dispatch(updateCollections(collectionsMap)) 
 })
 
 
