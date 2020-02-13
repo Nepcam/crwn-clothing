@@ -48,9 +48,8 @@ class App extends React.Component {
     return (
       <div>
         <Header />
+          {/* A <Switch> looks through its children <Route>s and renders the first one that matches the current URL. */}
           <Switch>
-              {/* A <Switch> looks through its children <Route>s and
-                    renders the first one that matches the current URL. */}
             <Route exact path='/' component={HomePage} />
             <Route path='/shop' component={ShopPage} />
             <Route exact path='/checkout' component={CheckoutPage} />
